@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        color: white;
+    }
+
+    body::before {
+        background: url(/img/bgmp.jpg) center center/cover;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+        opacity: 0.3;
+    }
+
+    /* intro */
+    #intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 12px;
+    }
+
+    span {
+        font-size: 1.1rem;
+        text-shadow: 4px 2px 14px white;
+    }
+
+    #logo {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 100px;
+        margin: 6px;
+    }
+
+    /* games */
+    .main {
+        display: flex;
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+
+    .no {
+        width: 3.6rem;
+        border: 2px solid white;
+        text-align: center;
+    }
+
+    .name {
+        width: 20rem;
+        border: 2px solid white;
+        padding-left: 9px;
+        text-shadow: 2px 2px 6px black;
+    }
+
+    .platform {
+        border: 2px solid white;
+        width: 11rem;
+        text-align: center;
+    }
+
+    img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .f {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    P{
+        margin: 4px;
+        margin-left: 2rem;
+        font-size: 1.3rem;
+    }
+</style>
+
+<body>
+    <div id="intro">
+        <img id="logo" src="/img/IMG_20220321_140059_771.jpg" alt="">
+        <span>SMASHER787</span>
+    </div>
+    <p>The games which are free</p>
+    <p>You can click on the logo for link </p>
+    <div class="main">
+        <div class="no">Series</div>
+        <div class="name" style="text-align: center;">Name</div>
+        <div class="platform">Available on</div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            1.
+        </div>
+        <div class="name f">
+            Apex Legend
+        </div>
+        <div class="platform">
+           <a href="https://www.ea.com/games/apex-legends" target="_blank"><img style="filter: invert(1);" src="/img/apex.png" alt=""> </a>
+           <a href="https://store.steampowered.com/app/1172470/Apex_Legends/" target="_blank"><img src="/img/steam.png" alt=""></a>
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            2.
+        </div>
+        <div class="name f">
+            Rocket League
+        </div>
+        <div class="platform">
+          <a href="https://store.epicgames.com/en-US/p/rocket-league" target="_blank"><img src="/img/epic.png" alt=""></a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            3.
+        </div>
+        <div class="name f">
+            Fortnite
+        </div>
+        <div class="platform">
+          <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank"><img src="/img/epic.png" alt=""></a>  
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            4.
+        </div>
+        <div class="name f">
+            CS:GO
+        </div>
+        <div class="platform">
+           <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank"><img src="/img/steam.png" alt=""></a> 
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            5.
+        </div>
+        <div class="name f">
+            Valorant
+        </div>
+        <div class="platform">
+           <a href="https://playvalorant.com/en-gb/" target="_blank"><img src="/img/riot.png" alt=""></a> 
+           <a href="https://store.epicgames.com/en-US/p/valorant" target="_blank"><img src="/img/epic.png" alt=""></a> 
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            6.
+        </div>
+        <div class="name f">
+            Fall Guys
+        </div>
+        <div class="platform">
+           <a href="https://store.epicgames.com/en-US/p/fall-guys" target="_blank"><img src="/img/epic.png" alt=""></a> 
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            7.
+        </div>
+        <div class="name f">
+            Halo Infinite
+        </div>
+        <div class="platform">
+           <a href="https://store.steampowered.com/app/1240440/Halo_Infinite/" target="_blank"><img src="/img/steam.png" alt=""></a> 
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            8.
+        </div>
+        <div class="name f">
+            Call of Duty: Warzone
+        </div>
+        <div class="platform">
+           <a href="https://www.callofduty.com/warzone" target="_blank"><img style="filter: invert(1); width: 5rem;" src="/img/codw.png" alt=""></a> 
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            9.
+        </div>
+        <div class="name f">
+            PUBG
+        </div>
+        <div class="platform">
+           <a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/" target="_blank"> <img src="/img/steam.png" alt=""></a> 
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            10.
+        </div>
+        <div class="name f">
+            Dota 2
+        </div>
+        <div class="platform">
+           <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank"> <img src="/img/steam.png" alt=""></a> 
+        </div>
+    </div>
+    <div class="main">
+        <div class="no f">
+            11.
+        </div>
+        <div class="name f">
+            Tom Clancy's Rainbow Six Siege
+        </div>
+        <div class="platform">
+           <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank"> <img src="/img/steam.png" alt=""></a>
+           <img style="filter: invert(1);" src="/img/ub.png" alt=""> </a> 
+        </div>
+    </div>
+</body>
+
+</html>
